@@ -1,0 +1,5 @@
+- Edit and refine ilab entry (would like to spend some time at work cleaning up the files for a git commit?)
+- Add some photos of iLab to gallery
+- Check for general updates from Student to Graduate
+- Edit on website CV, (maybe decide that it's not worth keeping 2 versions up to date and find a pdf embedder)
+- Change Professional experience to work and entrueprnerial experience
