@@ -1,0 +1,224 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<link rel = "icon" type ="image/x-icon" href = "assets\images\GreenEng.png">
+		<title>BTC trading bot</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			body {
+				font-family: Arial, sans-serif;
+				margin: 0;
+				padding: 0;
+			}
+	
+			.pdf-container {
+				width: 100%;
+				height: 100vh;
+				overflow: hidden;
+			}
+	
+			.pdf {
+				width: 100%;
+				height: 100%;
+			}
+		</style>
+
+    <!-- FontAwesome JS-->
+	<script defer src="assets/fontawesome/js/all.min.js"></script>
+    
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="assets/plugins/highlight/styles/monokai-sublime.css">
+    
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/theme-1.css">
+
+
+
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+				<header id="header">
+					<a   class="logo">BTC Trader</a>
+				</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">Back</a></li>
+							<li class="active"><a href="btc_blog.html">BTC trading bot</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/julian-banks-9a1111288/" target="_blank" class="icon brands fa-linkedin"><span class="label">Linked In</span></a></li>
+							<!-- Maybe put a GitHub link here one day! -->
+						</ul>
+					</nav>
+
+
+				<!-- Main -->
+					<div id="main">
+					
+						<article class="blog-post px-3 py-5 p-md-5">
+							<div class="container single-col-max-width">
+								<header class="blog-post-header">
+									<h2 class="title mb-2">BTC Trading Bot</h2>
+								</header>
+								<div class="blog-post-body">
+
+									Through some pics and a catchy line here haha. 
+
+									<h3 class="mt-5 mb-3">Project scope and explanation</h3>
+								
+									<p>This project was really just a fun way to practice and explore some more machine learning (ML) and reinforcement learning (RL) in python. I also wanted to push my coding further by incorporating an API into the project and aiming to build a usable app (an MVP at least if not a full app haha). It is a work in progress, I will continue to update this page as I make progress! </p>
+									<br>
+									<p>I broke down the project into bite sized chunks, namely:</p>
+									<ol class="mb-5">
+										<li class="mb-2">Preliminary data exploration</li>
+										<li class="mb-2">Selection of ARIMA parameters for predictions</li>
+										<li class="mb-2">Generation of predictions for training and testing in RL environment</li>
+										<li class="mb-2">Build RL training environment </li>
+										<li class="mb-2">Train BTC trading bot in RL environment (I foresee lots of frustration at this step haha)</li>
+										<li class="mb-2">Build beginning of application that uses an API to grab the latest BTC prices and makes a prediction for the future.</li>
+										<li class="mb-2">Integrate the trained Trading bot into the application so that it can provide trading advice using the predicted prices.s</li>
+									  </ol>
+
+
+									  <h3 class="mt-5 mb-3">Preliminary data exploration</h3>
+									  <p>The purpose of a data exploration in this context is typically to get a better understanding of the sort of data being used. Some general things like checking for nulls and anomalies as well as more case specific information about its autocorrelation and partial correlation plots and whether it is stationary. This information helps to ensure that we are not training our ML model on junk data and helps to inform the parameters of the ARIMA model.</p>
+									  
+									  The first major decision is what resolution data to work with. The finer the resolution ... CONTINUE HERE!!!!!!!!
+									
+									<!-- 	
+									<h3 class="mt-5 mb-3">Code Block Example</h3>
+									<p>Text explaining code goes here</p>
+									<pre>
+										<code>
+											Code Goes here
+										</code>
+									</pre>
+									-->
+
+									<h3 class="mt-5 mb-3">Typography</h3>
+									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+									<h5 class="my-3">Bullet Points:</h5>
+									<ul class="mb-5">
+									  <li class="mb-2">Lorem ipsum dolor sit amet consectetuer.</li>
+									  <li class="mb-2">Aenean commodo ligula eget dolor.</li>
+									  <li class="mb-2">Aenean massa cum sociis natoque penatibus.</li>
+									</ul>
+									<ol class="mb-5">
+									  <li class="mb-2">Lorem ipsum dolor sit amet consectetuer.</li>
+									  <li class="mb-2">Aenean commodo ligula eget dolor.</li>
+									  <li class="mb-2">Aenean massa cum sociis natoque penatibus.</li>
+									</ol>
+									<h5 class="my-3">Quote Example:</h5>
+									<blockquote class="blockquote m-lg-5 py-3   ps-4 px-lg-5">
+										<p class="mb-2">You might not think that programmers are artists, but programming is an extremely creative profession. It's logic-based creativity.</p>
+										<footer class="blockquote-footer mt-0">John Romero</footer>
+									</blockquote>
+									
+									<h5 class="my-3">Table Example:</h5>
+									<table class="table table-striped my-5">
+										<thead>
+											<tr>
+												<th scope="col">#</th>
+												<th scope="col">First</th>
+												<th scope="col">Last</th>
+												<th scope="col">Handle</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<th scope="row">1</th>
+												<td>Mark</td>
+												<td>Otto</td>
+												<td>@mdo</td>
+											</tr>
+											<tr>
+												<th scope="row">2</th>
+												<td>Jacob</td>
+												<td>Thornton</td>
+												<td>@fat</td>
+											</tr>
+											<tr>
+												<th scope="row">3</th>
+												<td>Larry</td>
+												<td>the Bird</td>
+												<td>@twitter</td>
+											</tr>
+										</tbody>
+									</table>
+									
+									<h5 class="mb-3">Embed A Tweet:</h5>
+									
+									<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">1969:<br>-what&#39;re you doing with that 2KB of RAM?<br>-sending people to the moon<br><br>2017:<br>-what&#39;re you doing with that 1.5GB of RAM?<br>-running Slack</p>&mdash; I Am Devloper (@iamdevloper) <a href="https://twitter.com/iamdevloper/status/926458505355235328?ref_src=twsrc%5Etfw">November 3, 2017</a></blockquote>
+				<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+				
+				
+									
+									<h3 class="mt-5 mb-3">Video Example</h3>
+									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. </p>
+				
+									<div class="ratio ratio-16x9">
+									   <iframe width="560" height="315" src="https://www.youtube.com/embed/1nxSE0R27Gg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>					
+									</div>
+								   
+								</div>
+					</div>
+
+				<!-- Footer -->
+				<footer id="footer">
+
+					<section class="split contact">
+						<section class="alt">
+							<h3>Address</h3>
+							<p>Cape Town<br />
+							South Africa</p>
+						</section>
+						<section>
+							<h3>Phone</h3>
+							<p><a href="#">+27 81 845 3640</a></p>
+						</section>
+						<section>
+							<h3>Email</h3>
+							<p><a href="mailto:julianrowlandbanks@gmail.com">julianrowlandbanks@gmail.com</a></p>
+						</section>
+						<section>
+							<h3>Social</h3>
+							<ul class="icons">
+								<li><a href="https://www.linkedin.com/in/julian-banks-9a1111288/" target="_blank" class="icon brands fa-linkedin"><span class="label">Linked In</span></a></li>
+								<!-- Maybe put a GitHub link here one day! -->
+							</ul>
+						</section>
+					</section>
+				</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
